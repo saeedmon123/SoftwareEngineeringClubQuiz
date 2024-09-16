@@ -30,6 +30,36 @@ const App = () => {
       answers: ['MySQL', 'Java', 'JSON', 'HTML'],
       correctAnswer: 'MySQL',
     },
+    {
+      question: 'What does CSS stand for?',
+      answers: ['Cascading Style Sheets', 'Coded Style Sheets', 'Computer Style Sheets', 'Creative Style Sheets'],
+      correctAnswer: 'Cascading Style Sheets',
+    },
+    {
+      question: 'Which of these is a JavaScript framework?',
+      answers: ['React', 'Django', 'Laravel', 'Spring'],
+      correctAnswer: 'React',
+    },
+    {
+      question: 'What is the purpose of a version control system?',
+      answers: ['Track changes to code', 'Manage project timelines', 'Design user interfaces', 'Optimize database queries'],
+      correctAnswer: 'Track changes to code',
+    },
+    {
+      question: 'What does API stand for?',
+      answers: ['Application Programming Interface', 'Advanced Programming Interface', 'Application Process Integration', 'Advanced Process Integration'],
+      correctAnswer: 'Application Programming Interface',
+    },
+    {
+      question: 'Which language is known as the "mother of all languages"?',
+      answers: ['C', 'Python', 'Java', 'Fortran'],
+      correctAnswer: 'C',
+    },
+    {
+      question: 'What is the main function of a database index?',
+      answers: ['Speed up data retrieval', 'Store data backups', 'Encrypt data', 'Normalize data'],
+      correctAnswer: 'Speed up data retrieval',
+    },
   ];
 
   // Timer logic
@@ -66,7 +96,6 @@ const App = () => {
       }
     }
   };
-  
 
   const nextQuestion = () => {
     const nextQuestionIndex = currentQuestion + 1;
