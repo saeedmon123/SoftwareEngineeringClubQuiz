@@ -116,7 +116,7 @@ const App = () => {
         {showResult ? (
           <div className="result-section">
             <h2>Your Score: {score} / {questions.length}</h2>
-            <p>Join our WhatsApp group: <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">Click Here</a></p>
+            <p>Join our WhatsApp group: <a href="https://chat.whatsapp.com/DJe4vjY5GDe77EbkM1mFNW" target="_blank" rel="noopener noreferrer">Click Here</a></p>
           </div>
         ) : (
           <div className="quiz-section">
